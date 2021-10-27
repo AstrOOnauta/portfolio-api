@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_skills_icons",
+  "info": {
+    "name": "techIcons",
+    "icon": "tools",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "titleIcon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
