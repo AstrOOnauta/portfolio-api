@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_page_section_skills",
+  "collectionName": "components_page_section_tech",
   "info": {
     "name": "sectionTech",
     "icon": "toolbox",
@@ -14,7 +14,7 @@
     "techIcons": {
       "type": "component",
       "repeatable": true,
-      "component": "page.skills-icons"
+      "component": "page.tech-icons"
     }
   }
 }

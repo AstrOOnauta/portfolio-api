@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_logos",
+  "info": {
+    "name": "logo",
+    "icon": "seedling",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoMedia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "alternativeText": {
+      "type": "string",
+      "required": true
+    },
+    "logoText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

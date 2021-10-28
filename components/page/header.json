@@ -2,30 +2,25 @@
   "collectionName": "components_page_headers",
   "info": {
     "name": "header",
-    "icon": "desktop"
+    "icon": "desktop",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "type": "component",
+      "repeatable": false,
+      "component": "page.logo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
     },
     "perfil": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "type": "component",
+      "repeatable": false,
+      "component": "page.perfil"
     }
   }
 }

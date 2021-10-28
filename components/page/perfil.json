@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_page_perfils",
+  "info": {
+    "name": "perfil",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "facebookURL": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "githubURL": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    },
+    "linkedinURL": {
+      "type": "string",
+      "required": true
+    },
+    "alternativeText": {
+      "type": "string",
+      "required": true
+    },
+    "instagramURL": {
+      "type": "string",
+      "required": true
+    },
+    "job": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
