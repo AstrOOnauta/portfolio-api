@@ -11,8 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "0.21.18",
+    "knex": "^0.95.12",
     "pg": "8.5.1",
+    "pg-connection-string": "^2.5.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
